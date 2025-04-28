@@ -42,7 +42,7 @@ To create a new task, use the following cURL command or Postman. [cURLCommand]:c
 
 # Postman Setup:
 
-Set the request method to POST.URL: (http://localhost:5000/tasks).In the Body tab, select raw and choose JSON from the dropdown.
+Set the request method to POST.URL: (http://localhost:5000/tasks). In the Body tab, select raw and choose JSON from the dropdown.
 Paste this JSON data:
 '{
   "title": "Learn Node.js",
