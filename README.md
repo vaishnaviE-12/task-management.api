@@ -2,7 +2,7 @@
 
 ##  Clone the Repository
 
-Clone the repository to download it to your local machine. This will create a folder named task-management.[gitclone]( https://github.com/your-username/task-management.git)
+Clone the repository to download it to your local machine. This will create a folder named task-management (https://github.com/your-username/task-management.api)
 
 
 
@@ -18,14 +18,14 @@ Install all the required libraries (such as Express, Joi, Morgan) used in the pr
 
 #  Start the Server
 
- run the server locally `node app.js` ,Your server will start at (http://localhost:5000). You can now open Postman or your browser and start testing the API.
+ run the server locally `node app.js` ,Your server will start at (http://localhost:5000/). You can now open Postman or your browser and start testing the API.
 
 
 ## Approach and Architecture
 
 - The API is built using Node.js and Express.js.
 - The project is structured into separate folders: `routes, controllers, services, middleware, and utils`.
-- `Input validation` is handled using [Joi].
+- `Input validation` is handled using Joi.
 - Tasks are stored `in-memory` for simplicity.
 - Proper `error handling` is implemented to manage issues and provide clear feedback.
 
